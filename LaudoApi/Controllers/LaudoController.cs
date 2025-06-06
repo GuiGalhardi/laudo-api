@@ -1,7 +1,9 @@
-﻿using LaudoApi.Constantes;
-using LaudoApi.Models;  // Importa o modelo LaudoRequest
+﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using System.IO;
 using System.Text;
+using System.Threading.Tasks;
+using LaudoApi.Models;
 
 namespace LaudoApi.Controllers
 {
@@ -26,44 +28,35 @@ namespace LaudoApi.Controllers
             var ene = request.Eneagrama;
 
             // Validações
-            if (string.IsNullOrEmpty(temp) || !Referencias.ValidTemperamentos.Contains(temp))
-                return BadRequest($"Temperamento inválido. Deve ser um de: s, f, m ou c.");
+            if (string.IsNullOrEmpty(temp) || !new[] { "s", "f", "m", "c" }.Contains(temp))
+                return BadRequest("Temperamento inválido.");
+            if (ene < 1 || ene > 9)
+                return BadRequest("Eneagrama inválido. Deve ser de 1 a 9.");
 
-            if (!Referencias.ValidEneagramas.Contains(ene))
-                return BadRequest("Eneagrama inválido. Deve ser um inteiro de 1 a 9.");
+            // Monta o nome do arquivo baseado nas entradas
+            var nomeArquivo = $"natureza-{temp}-{ene}.md";
 
-            var nomeTemperamento = $"temperamento-{temp}.md";
-            var nomeEneagrama = $"eneagrama-{ene}.md";
-
-            // Caminho até a pasta onde os arquivos Markdown estão armazenados
+            // Caminho completo até a pasta Markdown
             var markdownDir = Path.Combine(_env.ContentRootPath, "Markdowns");
-            var pathTemp = Path.Combine(markdownDir, nomeTemperamento);
-            var pathEne = Path.Combine(markdownDir, nomeEneagrama);
+            var pathArquivo = Path.Combine(markdownDir, nomeArquivo);
 
-            // Verifica se os arquivos existem
-            if (!System.IO.File.Exists(pathTemp))
-                return NotFound($"Arquivo '{nomeTemperamento}' não encontrado.");
-            if (!System.IO.File.Exists(pathEne))
-                return NotFound($"Arquivo '{nomeEneagrama}' não encontrado.");
+            // Verifica se o arquivo existe
+            if (!System.IO.File.Exists(pathArquivo))
+                return NotFound($"Arquivo '{nomeArquivo}' não encontrado.");
 
-            string conteudoTemp;
-            string conteudoEne;
+            // Lê o conteúdo do arquivo
+            string conteudoArquivo;
             try
             {
-                // Lê os arquivos Markdown
-                conteudoTemp = await System.IO.File.ReadAllTextAsync(pathTemp, Encoding.UTF8);
-                conteudoEne = await System.IO.File.ReadAllTextAsync(pathEne, Encoding.UTF8);
+                conteudoArquivo = await System.IO.File.ReadAllTextAsync(pathArquivo, Encoding.UTF8);
             }
             catch (IOException ioEx)
             {
-                return StatusCode(500, $"Erro ao ler arquivos: {ioEx.Message}");
+                return StatusCode(500, $"Erro ao ler arquivo: {ioEx.Message}");
             }
 
-            // Concatena os conteúdos dos arquivos
-            var conteudoFinal = conteudoTemp.TrimEnd() + "\n\n" + conteudoEne.TrimEnd() + "\n";
-
-            // Converte o conteúdo para bytes e retorna como arquivo para download
-            var bytesLaudo = Encoding.UTF8.GetBytes(conteudoFinal);
+            // Converte para bytes e retorna como FileResult
+            var bytesLaudo = Encoding.UTF8.GetBytes(conteudoArquivo);
             return File(bytesLaudo, "text/markdown", "laudo.md");
         }
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LaudoApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25561408515d9ebc0f79805c64158ed8bfcf62c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04f1bb6f502af7529fcb3e0e5afe953105373f6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("LaudoApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LaudoApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
