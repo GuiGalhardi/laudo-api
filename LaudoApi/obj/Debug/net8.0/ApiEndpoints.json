@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "LaudoApi.Controllers.LaudoController",
+    "Method": "GerarLaudo",
+    "RelativePath": "api/Laudo/gerar-laudo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LaudoApi.Models.LaudoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
