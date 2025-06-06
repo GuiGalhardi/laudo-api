@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GuilhermeTI\\Desktop\\laudo-api\\LaudoApi\\LaudoApi.csproj": {}
+    "C:\\Users\\GuilhermeTI\\Desktop\\Diversos\\Meus Programas\\laudo-api\\LaudoApi\\LaudoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GuilhermeTI\\Desktop\\laudo-api\\LaudoApi\\LaudoApi.csproj": {
+    "C:\\Users\\GuilhermeTI\\Desktop\\Diversos\\Meus Programas\\laudo-api\\LaudoApi\\LaudoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GuilhermeTI\\Desktop\\laudo-api\\LaudoApi\\LaudoApi.csproj",
+        "projectUniqueName": "C:\\Users\\GuilhermeTI\\Desktop\\Diversos\\Meus Programas\\laudo-api\\LaudoApi\\LaudoApi.csproj",
         "projectName": "LaudoApi",
-        "projectPath": "C:\\Users\\GuilhermeTI\\Desktop\\laudo-api\\LaudoApi\\LaudoApi.csproj",
+        "projectPath": "C:\\Users\\GuilhermeTI\\Desktop\\Diversos\\Meus Programas\\laudo-api\\LaudoApi\\LaudoApi.csproj",
         "packagesPath": "C:\\Users\\GuilhermeTI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GuilhermeTI\\Desktop\\laudo-api\\LaudoApi\\obj\\",
+        "outputPath": "C:\\Users\\GuilhermeTI\\Desktop\\Diversos\\Meus Programas\\laudo-api\\LaudoApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

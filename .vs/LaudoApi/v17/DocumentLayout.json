@@ -1,21 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\GuilhermeTI\\Desktop\\laudo-api\\",
+  "WorkspaceRootPath": "C:\\Users\\GuilhermeTI\\Desktop\\Diversos\\Meus Programas\\laudo-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8CF03EC-2396-49F9-B5AB-CB0DADC83DF4}|LaudoApi\\LaudoApi.csproj|c:\\users\\guilhermeti\\desktop\\laudo-api\\laudoapi\\controllers\\laudocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8CF03EC-2396-49F9-B5AB-CB0DADC83DF4}|LaudoApi\\LaudoApi.csproj|c:\\users\\guilhermeti\\desktop\\diversos\\meus programas\\laudo-api\\laudoapi\\controllers\\laudocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8CF03EC-2396-49F9-B5AB-CB0DADC83DF4}|LaudoApi\\LaudoApi.csproj|solutionrelative:laudoapi\\controllers\\laudocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8CF03EC-2396-49F9-B5AB-CB0DADC83DF4}|LaudoApi\\LaudoApi.csproj|c:\\users\\guilhermeti\\desktop\\laudo-api\\laudoapi\\models\\laudorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8CF03EC-2396-49F9-B5AB-CB0DADC83DF4}|LaudoApi\\LaudoApi.csproj|c:\\users\\guilhermeti\\desktop\\diversos\\meus programas\\laudo-api\\laudoapi\\constantes\\referencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8CF03EC-2396-49F9-B5AB-CB0DADC83DF4}|LaudoApi\\LaudoApi.csproj|solutionrelative:laudoapi\\constantes\\referencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8CF03EC-2396-49F9-B5AB-CB0DADC83DF4}|LaudoApi\\LaudoApi.csproj|c:\\users\\guilhermeti\\desktop\\diversos\\meus programas\\laudo-api\\laudoapi\\constantes\\diretorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8CF03EC-2396-49F9-B5AB-CB0DADC83DF4}|LaudoApi\\LaudoApi.csproj|solutionrelative:laudoapi\\constantes\\diretorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8CF03EC-2396-49F9-B5AB-CB0DADC83DF4}|LaudoApi\\LaudoApi.csproj|c:\\users\\guilhermeti\\desktop\\diversos\\meus programas\\laudo-api\\laudoapi\\models\\laudorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8CF03EC-2396-49F9-B5AB-CB0DADC83DF4}|LaudoApi\\LaudoApi.csproj|solutionrelative:laudoapi\\models\\laudorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8CF03EC-2396-49F9-B5AB-CB0DADC83DF4}|LaudoApi\\LaudoApi.csproj|c:\\users\\guilhermeti\\desktop\\laudo-api\\laudoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8CF03EC-2396-49F9-B5AB-CB0DADC83DF4}|LaudoApi\\LaudoApi.csproj|c:\\users\\guilhermeti\\desktop\\diversos\\meus programas\\laudo-api\\laudoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8CF03EC-2396-49F9-B5AB-CB0DADC83DF4}|LaudoApi\\LaudoApi.csproj|solutionrelative:laudoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8CF03EC-2396-49F9-B5AB-CB0DADC83DF4}|LaudoApi\\LaudoApi.csproj|c:\\users\\guilhermeti\\desktop\\laudo-api\\laudoapi\\laudoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{F8CF03EC-2396-49F9-B5AB-CB0DADC83DF4}|LaudoApi\\LaudoApi.csproj|c:\\users\\guilhermeti\\desktop\\diversos\\meus programas\\laudo-api\\laudoapi\\laudoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F8CF03EC-2396-49F9-B5AB-CB0DADC83DF4}|LaudoApi\\LaudoApi.csproj|solutionrelative:laudoapi\\laudoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -26,28 +34,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Diretorios.cs",
+              "DocumentMoniker": "C:\\Users\\GuilhermeTI\\Desktop\\Diversos\\Meus Programas\\laudo-api\\LaudoApi\\Constantes\\Diretorios.cs",
+              "RelativeDocumentMoniker": "LaudoApi\\Constantes\\Diretorios.cs",
+              "ToolTip": "C:\\Users\\GuilhermeTI\\Desktop\\Diversos\\Meus Programas\\laudo-api\\LaudoApi\\Constantes\\Diretorios.cs",
+              "RelativeToolTip": "LaudoApi\\Constantes\\Diretorios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:38:51.893Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Referencias.cs",
+              "DocumentMoniker": "C:\\Users\\GuilhermeTI\\Desktop\\Diversos\\Meus Programas\\laudo-api\\LaudoApi\\Constantes\\Referencias.cs",
+              "RelativeDocumentMoniker": "LaudoApi\\Constantes\\Referencias.cs",
+              "ToolTip": "C:\\Users\\GuilhermeTI\\Desktop\\Diversos\\Meus Programas\\laudo-api\\LaudoApi\\Constantes\\Referencias.cs",
+              "RelativeToolTip": "LaudoApi\\Constantes\\Referencias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:45:02.434Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "LaudoController.cs",
-              "DocumentMoniker": "C:\\Users\\GuilhermeTI\\Desktop\\laudo-api\\LaudoApi\\Controllers\\LaudoController.cs",
+              "DocumentMoniker": "C:\\Users\\GuilhermeTI\\Desktop\\Diversos\\Meus Programas\\laudo-api\\LaudoApi\\Controllers\\LaudoController.cs",
               "RelativeDocumentMoniker": "LaudoApi\\Controllers\\LaudoController.cs",
-              "ToolTip": "C:\\Users\\GuilhermeTI\\Desktop\\laudo-api\\LaudoApi\\Controllers\\LaudoController.cs",
+              "ToolTip": "C:\\Users\\GuilhermeTI\\Desktop\\Diversos\\Meus Programas\\laudo-api\\LaudoApi\\Controllers\\LaudoController.cs",
               "RelativeToolTip": "LaudoApi\\Controllers\\LaudoController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAmwEQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T12:45:20.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LaudoRequest.cs",
-              "DocumentMoniker": "C:\\Users\\GuilhermeTI\\Desktop\\laudo-api\\LaudoApi\\Models\\LaudoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\GuilhermeTI\\Desktop\\Diversos\\Meus Programas\\laudo-api\\LaudoApi\\Models\\LaudoRequest.cs",
               "RelativeDocumentMoniker": "LaudoApi\\Models\\LaudoRequest.cs",
-              "ToolTip": "C:\\Users\\GuilhermeTI\\Desktop\\laudo-api\\LaudoApi\\Models\\LaudoRequest.cs",
+              "ToolTip": "C:\\Users\\GuilhermeTI\\Desktop\\Diversos\\Meus Programas\\laudo-api\\LaudoApi\\Models\\LaudoRequest.cs",
               "RelativeToolTip": "LaudoApi\\Models\\LaudoRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -55,11 +90,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "LaudoApi.csproj",
-              "DocumentMoniker": "C:\\Users\\GuilhermeTI\\Desktop\\laudo-api\\LaudoApi\\LaudoApi.csproj",
+              "DocumentMoniker": "C:\\Users\\GuilhermeTI\\Desktop\\Diversos\\Meus Programas\\laudo-api\\LaudoApi\\LaudoApi.csproj",
               "RelativeDocumentMoniker": "LaudoApi\\LaudoApi.csproj",
-              "ToolTip": "C:\\Users\\GuilhermeTI\\Desktop\\laudo-api\\LaudoApi\\LaudoApi.csproj",
+              "ToolTip": "C:\\Users\\GuilhermeTI\\Desktop\\Diversos\\Meus Programas\\laudo-api\\LaudoApi\\LaudoApi.csproj",
               "RelativeToolTip": "LaudoApi\\LaudoApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -67,11 +102,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\GuilhermeTI\\Desktop\\laudo-api\\LaudoApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\GuilhermeTI\\Desktop\\Diversos\\Meus Programas\\laudo-api\\LaudoApi\\Program.cs",
               "RelativeDocumentMoniker": "LaudoApi\\Program.cs",
-              "ToolTip": "C:\\Users\\GuilhermeTI\\Desktop\\laudo-api\\LaudoApi\\Program.cs",
+              "ToolTip": "C:\\Users\\GuilhermeTI\\Desktop\\Diversos\\Meus Programas\\laudo-api\\LaudoApi\\Program.cs",
               "RelativeToolTip": "LaudoApi\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

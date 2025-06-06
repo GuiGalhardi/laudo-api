@@ -1,4 +1,5 @@
-﻿using LaudoApi.Models;  // Importa o modelo LaudoRequest
+﻿using LaudoApi.Constantes;
+using LaudoApi.Models;  // Importa o modelo LaudoRequest
 using Microsoft.AspNetCore.Mvc;
 using System.Text;
 
@@ -9,8 +10,6 @@ namespace LaudoApi.Controllers
     public class LaudoController : ControllerBase
     {
         private readonly IWebHostEnvironment _env;
-        private static readonly string[] ValidTemperamentos = { "s", "f", "m", "c" };
-        private static readonly int[] ValidEneagramas = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
         public LaudoController(IWebHostEnvironment env)
         {
@@ -27,10 +26,10 @@ namespace LaudoApi.Controllers
             var ene = request.Eneagrama;
 
             // Validações
-            if (string.IsNullOrEmpty(temp) || !ValidTemperamentos.Contains(temp))
+            if (string.IsNullOrEmpty(temp) || !Referencias.ValidTemperamentos.Contains(temp))
                 return BadRequest($"Temperamento inválido. Deve ser um de: s, f, m ou c.");
 
-            if (!ValidEneagramas.Contains(ene))
+            if (!Referencias.ValidEneagramas.Contains(ene))
                 return BadRequest("Eneagrama inválido. Deve ser um inteiro de 1 a 9.");
 
             var nomeTemperamento = $"temperamento-{temp}.md";
